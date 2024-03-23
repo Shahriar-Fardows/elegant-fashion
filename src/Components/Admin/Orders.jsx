@@ -31,8 +31,7 @@ const Orders = ({ data }) => {
                         console.log(data, "hello");
                         // eslint-disable-next-line react/prop-types
                         if (data.deletedCount > 0) {
-                            
-                            return window.location.reload();
+                            return window.location.reload('/');
                         }
 
 
