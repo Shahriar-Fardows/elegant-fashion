@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       {
         path: "/cardInfo/:id",
         element: <CardInfo />,
-        loader: ({params}) => fetch(`http://localhost:5000/cardInfo/${params.id}`),
+        loader: ({params}) => fetch(`https://fetion-server.vercel.app/cardInfo/${params.id}`),
       },
       
     ],
